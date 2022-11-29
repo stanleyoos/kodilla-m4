@@ -1,0 +1,79 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+}
+.container {
+  max-width: 70%;
+  padding: 0 20px;
+  margin: 0px auto;
+}
+
+section {
+  padding-top: 30px;
+}
+
+/* Nav */
+
+nav {
+  height: 400px;
+  background: url('https://images.pexels.com/photos/1571442/pexels-photo-1571442.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  object-fit: cover;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  justify-content: space-around;
+}
+
+li {
+  padding: 5px 10px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  color: rgb(252, 236, 10);
+}
+
+.headers h2,
+h4,
+p {
+  text-align: center;
+}
+
+i {
+  padding: 20px;
+  font-size: 40px;
+}
+
+/* Card */
+
+.card {
+  text-align: center;
+  background: rgb(153, 189, 201);
+  padding: 3px;
+  border-radius: 10%;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Footer */
+
+li {
+  padding: 0;
+}
+
+li i {
+  font-size: 10px;
+}
